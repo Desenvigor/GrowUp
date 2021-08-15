@@ -22,7 +22,7 @@ Create a static page based on the design that you can find at [figma](https://ww
 <img src="media/photos/about.gif" alt="Image example">
 
 > Contact Section
-<img src="media/photos/contact.gif" alt="Image example">
+<img src="media/photos/contact.png" alt="Image example">
 
 > Services Section
 <img src="media/photos/services.gif" alt="Image example">
