@@ -5,7 +5,7 @@
 <!--- /github/languages/code-size/:user/:repo --->
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/Desenvigor/LOVT?style=for-the-badge)
 
-<img src="" alt="Home">
+<img src="assets/growup-logo.svg" alt="Home">
 
 > Challenge suggested in the Full-stack developer course of Digital House Brazil.
 
@@ -15,19 +15,20 @@ Create a static page based on the design that you can find at [figma](https://ww
 
 ## 📷 Pictures
 
-> Header.
-<img src="media/photos/" alt="Image example">
+> Index.
+<img src="media/photos/index.png" alt="Image example">
 
-> Carousel.
-<img src="media/photos/" alt="Image example">
+> About Section
+<img src="media/photos/about.gif" alt="Image example">
 
-> Articles.
-<img src="media/photos/" alt="Image example">
+> Contact Section
+<img src="media/photos/contact.gif" alt="Image example">
 
-> Form and Footer
-<img src="media/photos/" alt="Image example">
+> Services Section
+<img src="media/photos/services.gif" alt="Image example">
 
-
+> Responsive display
+<img src="media/photos/responsive.gif" alt="Image example">
 
 ## 💻 Required
 
@@ -36,7 +37,7 @@ Create a static page based on the design that you can find at [figma](https://ww
 
 ## 🔗 Preview
 
-* If you want to see the project deployed, click on the link [link](https://lovt-dh.netlify.app/).
+* If you want to see the project deployed, click on the link [link](https://growup-dh.netlify.app/).
 
 
 ## 🤝 Collaborators

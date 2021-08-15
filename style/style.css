@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #9B9B9B;
+    position: relative;
 }
 
 .header-site{
-    width: 100%;
+    max-width: 100%;
     background-color: #00796B;
-    box-shadow: 2px 0px #666666;
+    box-shadow: 0px 5px 5px #6666668c;
 }
 
 .logo{
@@ -90,7 +95,7 @@ body{
     font-weight: 200;
 }
 
-/* AQUI COMEÇA O CSS DA PÁGINA SOBRE */
+/* Here start the CSS of sobre.html file*/
 
 .main-title{
     color: #00796B;
@@ -135,4 +140,191 @@ body{
 }
 .company-values .container .text-image{
     text-align: center;
+}
+
+/* Here start the CSS of servicos.html file*/
+
+.service-section .container{
+    flex-flow: row wrap;
+}
+
+.service-article{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 40px;
+}
+
+.service-article img{
+    width: 100%;
+}
+
+.service-article:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.service-article:last-child{
+    margin-bottom: 180px;
+}
+
+.article-description{
+    width: 40%;
+}
+
+
+/* Here start the CSS of contato.html file*/
+
+.contact-section .container{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+
+.contact-form{
+    width: 45%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 18px;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0 25px;
+}
+
+.form-textarea{
+    resize: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn{
+    background-color: #00796B;
+    border: none;
+    color: #FFF;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-map{
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact-map p{
+    width: 100%;
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+
+.refer-link{
+    text-decoration: none;
+    color: #00796B;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.map{
+    border-radius: 5px;
+}
+
+@media (max-width: 1279px){
+    .navigation{
+        padding-right: 20px;
+    }
+
+    .main-about{
+        padding: 20px;
+    }
+
+    main{
+        padding: 20px;
+    } 
+
+    .contact-section .container{
+        padding-top: 0;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-map{
+        margin: 40px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .main-description{
+        flex-wrap: wrap;
+        padding: 0 15px;
+        justify-content: center;
+    }
+
+    .description-image{
+        width: 100%;
+    }   
+   
+}
+
+@media (max-width: 481px){
+
+    .nav-item{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .main-title{
+        text-align: center;
+    }
+
+    main {
+        padding-bottom: 60px;
+    }
+
+    .about-section .container{
+        flex-flow: column-reverse wrap;
+        margin-bottom: 15px;
+    }
+
+    .main-about{
+        padding: 20px;
+    }
+
+    .pilars-video{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .company-pilars{
+        width: 100%;
+    }
+
+    .service-article{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px;
+    }
+
+    .service-article .text-title{
+        font-size: 25px;
+    }
+
+    .article-description{
+        width: 100%;
+    }
+
+    .contact-section .container{
+        flex-direction: column-reverse;
+    }
+
 }
